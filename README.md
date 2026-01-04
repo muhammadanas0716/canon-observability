@@ -1,4 +1,7 @@
-# Canon
+# canon-observability
+
+[![npm version](https://img.shields.io/npm/v/canon-observability.svg)](https://www.npmjs.com/package/canon-observability)
+[![license](https://img.shields.io/npm/l/canon-observability.svg)](LICENSE)
 
 **One request = one canonical wide event.**
 
