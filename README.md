@@ -4,35 +4,14 @@
 
 Canon is an observability library for Node.js that guarantees exactly one structured event per HTTP request in Express.
 
-## Quickstart
-
-The fastest way to try Canon:
-
-```bash
-pnpm create canon-app
-cd canon-app
-pnpm dev
-```
-
-This scaffolds a working Express app with Canon configured for:
-- One wide event per request (JSON to stdout)
-- Schema validation with unknown field warnings
-- PII redaction (email hashed, IP masked)
-- Tail sampling (keep errors, slow requests, enterprise users)
-- Abort handling (`outcome: "aborted"` on disconnect)
-
-Hit the endpoints and watch events print to your terminal.
-
 ## Install
 
-To add Canon to an existing project:
-
 ```bash
-pnpm add canon-observability
+pnpm add canon
 # or
-npm install canon-observability
+npm install canon
 # or
-yarn add canon-observability
+yarn add canon
 ```
 
 ## 60-Second Express Example
